@@ -4,7 +4,7 @@
 
 I will preface this by saying this is a fantastic example of the sort of thing responsible developers should run away screaming from (but that marketers love). It should not be used if you value or respect your users right to privacy. This is experimental and probably won't work forever.
 
-**Credit** Goes to [Sandy Whiteman](figureone.com) for the Original idea, but I'm responsible for this execution. Admittedly he won't touch this with a stick either.
+**Credit** Goes to Sandy Whiteman for the Original idea, but I'm responsible for this execution. Admittedly he won't touch this with a stick either.
 
 ## The Ask
 
