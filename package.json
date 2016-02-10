@@ -1,0 +1,37 @@
+{
+  "name": "DONOTUSEMarketoPrefill",
+  "description": "Beware the Jabberwock!",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Rotimi A-Williams",
+      "email": "holler@rotimi.me",
+      "web": "rotimi.me"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rotimi-dev/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.4.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "jshint": ">=2.9.1-rc2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "js-cookie": "^2.0.4",
+    "underscore": "^1.8.3"
+  }
+}
