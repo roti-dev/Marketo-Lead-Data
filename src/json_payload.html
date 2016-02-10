@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Do not use</title>
+	</head>
+	<body>
+
+    <!-- //////// -->
+		<!-- Steal Me -->
+
+    <div id="JSON_payload" data-type="application/json">
+      {
+        "firstName":  "{{Lead.First Name}}",
+        "lastName":   "{{Lead.Last Name}}",
+        "email":      "{{Lead.Email Addresss}}"
+      }
+    </div>
+
+    <script type="text/javascript">
+      var sendLeadData = function() {
+        var leadData = JSON.stringify(JSON.parse(#('#JSON_payload').html()));
+        if (leadDAta === undefined || leadData === null ) return;
+        parent.postMessage(leadData,'[YOUR SITE URL GOES HERE]');
+      };
+      setInterval(sendLeadData, 2000);
+    </script>
+
+    <!-- //// End Important Stuff //// -->
+
+	</body>
+</html>
